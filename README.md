@@ -2,7 +2,7 @@
 
 Block users who you don't like by using undocumented X(formly Twitter) APIs, provided by ```twikit```.
 
-Currently supports block users who join the specified  X community.
+Currently supports block users who join the specified X community while followers are excepted.
 
 ## Usage
 ```python
@@ -21,7 +21,7 @@ community_users = get_community_users('The community id')
 python3 ./tweetzen.py
 ```
 
-## Get Community ID
+## How to get a community ID
 ![Get X Community ID](./screenshot.png)
 
 ## Todo
